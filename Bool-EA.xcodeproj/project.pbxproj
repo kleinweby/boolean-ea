@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA76055C1782365C006B0849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA76055B1782365C006B0849 /* Foundation.framework */; };
+		AA76055F1782365C006B0849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76055E1782365C006B0849 /* main.m */; };
+		AA7605631782365C006B0849 /* Bool_EA.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA7605621782365C006B0849 /* Bool_EA.1 */; };
+		AA8E94ED178239A80093B4AE /* EAPopulation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76056D1782378E006B0849 /* EAPopulation.m */; };
+		AA8E94EE17823ACC0093B4AE /* EAIndividual.m in Sources */ = {isa = PBXBuildFile; fileRef = AA76056B1782371D006B0849 /* EAIndividual.m */; };
+		AA8E94F317823E260093B4AE /* EAFunctionF1.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E94F217823E260093B4AE /* EAFunctionF1.m */; };
+		AA8E94F617823F260093B4AE /* EAFunctionF2.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E94F517823F260093B4AE /* EAFunctionF2.m */; };
+		AA8E94FA1782419F0093B4AE /* EAStandardMutator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E94F91782419F0093B4AE /* EAStandardMutator.m */; };
+		AA8E94FD178242C20093B4AE /* EAOneBitMutator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E94FC178242C20093B4AE /* EAOneBitMutator.m */; };
+		AA8E9501178243DD0093B4AE /* EANPointCrossover.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9500178243DD0093B4AE /* EANPointCrossover.m */; };
+		AA8E9504178245240093B4AE /* EAUniformCrossover.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9503178245240093B4AE /* EAUniformCrossover.m */; };
+		AA8E9508178246F60093B4AE /* EAOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9507178246F60093B4AE /* EAOptimizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA7605561782365C006B0849 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AA7605631782365C006B0849 /* Bool_EA.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA7605581782365C006B0849 /* Bool-EA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bool-EA"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA76055B1782365C006B0849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA76055E1782365C006B0849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7605611782365C006B0849 /* Bool-EA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bool-EA-Prefix.pch"; sourceTree = "<group>"; };
+		AA7605621782365C006B0849 /* Bool_EA.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bool_EA.1; sourceTree = "<group>"; };
+		AA76056917823686006B0849 /* EAFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAFunction.h; sourceTree = "<group>"; };
+		AA76056A1782371D006B0849 /* EAIndividual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAIndividual.h; sourceTree = "<group>"; };
+		AA76056B1782371D006B0849 /* EAIndividual.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAIndividual.m; sourceTree = "<group>"; };
+		AA76056C1782378E006B0849 /* EAPopulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAPopulation.h; sourceTree = "<group>"; };
+		AA76056D1782378E006B0849 /* EAPopulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAPopulation.m; sourceTree = "<group>"; };
+		AA8E94EF17823C960093B4AE /* EAMutator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAMutator.h; sourceTree = "<group>"; };
+		AA8E94F017823D160093B4AE /* EACrossover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EACrossover.h; sourceTree = "<group>"; };
+		AA8E94F117823E260093B4AE /* EAFunctionF1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFunctionF1.h; sourceTree = "<group>"; };
+		AA8E94F217823E260093B4AE /* EAFunctionF1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFunctionF1.m; sourceTree = "<group>"; };
+		AA8E94F417823F260093B4AE /* EAFunctionF2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFunctionF2.h; sourceTree = "<group>"; };
+		AA8E94F517823F260093B4AE /* EAFunctionF2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFunctionF2.m; sourceTree = "<group>"; };
+		AA8E94F81782419F0093B4AE /* EAStandardMutator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAStandardMutator.h; sourceTree = "<group>"; };
+		AA8E94F91782419F0093B4AE /* EAStandardMutator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAStandardMutator.m; sourceTree = "<group>"; };
+		AA8E94FB178242C20093B4AE /* EAOneBitMutator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAOneBitMutator.h; sourceTree = "<group>"; };
+		AA8E94FC178242C20093B4AE /* EAOneBitMutator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAOneBitMutator.m; sourceTree = "<group>"; };
+		AA8E94FF178243DD0093B4AE /* EANPointCrossover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EANPointCrossover.h; sourceTree = "<group>"; };
+		AA8E9500178243DD0093B4AE /* EANPointCrossover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EANPointCrossover.m; sourceTree = "<group>"; };
+		AA8E9502178245240093B4AE /* EAUniformCrossover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAUniformCrossover.h; sourceTree = "<group>"; };
+		AA8E9503178245240093B4AE /* EAUniformCrossover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAUniformCrossover.m; sourceTree = "<group>"; };
+		AA8E9506178246F60093B4AE /* EAOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAOptimizer.h; sourceTree = "<group>"; };
+		AA8E9507178246F60093B4AE /* EAOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAOptimizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7605551782365C006B0849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA76055C1782365C006B0849 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA76054F1782365C006B0849 = {
+			isa = PBXGroup;
+			children = (
+				AA76055D1782365C006B0849 /* Bool-EA */,
+				AA76055A1782365C006B0849 /* Frameworks */,
+				AA7605591782365C006B0849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7605591782365C006B0849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7605581782365C006B0849 /* Bool-EA */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA76055A1782365C006B0849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA76055B1782365C006B0849 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA76055D1782365C006B0849 /* Bool-EA */ = {
+			isa = PBXGroup;
+			children = (
+				AA76055E1782365C006B0849 /* main.m */,
+				AA7605621782365C006B0849 /* Bool_EA.1 */,
+				AA7605601782365C006B0849 /* Supporting Files */,
+				AA76056A1782371D006B0849 /* EAIndividual.h */,
+				AA76056B1782371D006B0849 /* EAIndividual.m */,
+				AA76056C1782378E006B0849 /* EAPopulation.h */,
+				AA76056D1782378E006B0849 /* EAPopulation.m */,
+				AA76056917823686006B0849 /* EAFunction.h */,
+				AA8E94EF17823C960093B4AE /* EAMutator.h */,
+				AA8E94F017823D160093B4AE /* EACrossover.h */,
+				AA8E94F7178240060093B4AE /* Functions */,
+				AA8E94FE178243270093B4AE /* Mutators */,
+				AA8E9505178245D10093B4AE /* Crossovers */,
+				AA8E9506178246F60093B4AE /* EAOptimizer.h */,
+				AA8E9507178246F60093B4AE /* EAOptimizer.m */,
+			);
+			path = "Bool-EA";
+			sourceTree = "<group>";
+		};
+		AA7605601782365C006B0849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7605611782365C006B0849 /* Bool-EA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8E94F7178240060093B4AE /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E94F117823E260093B4AE /* EAFunctionF1.h */,
+				AA8E94F217823E260093B4AE /* EAFunctionF1.m */,
+				AA8E94F417823F260093B4AE /* EAFunctionF2.h */,
+				AA8E94F517823F260093B4AE /* EAFunctionF2.m */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		AA8E94FE178243270093B4AE /* Mutators */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E94F81782419F0093B4AE /* EAStandardMutator.h */,
+				AA8E94F91782419F0093B4AE /* EAStandardMutator.m */,
+				AA8E94FB178242C20093B4AE /* EAOneBitMutator.h */,
+				AA8E94FC178242C20093B4AE /* EAOneBitMutator.m */,
+			);
+			name = Mutators;
+			sourceTree = "<group>";
+		};
+		AA8E9505178245D10093B4AE /* Crossovers */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E94FF178243DD0093B4AE /* EANPointCrossover.h */,
+				AA8E9500178243DD0093B4AE /* EANPointCrossover.m */,
+				AA8E9502178245240093B4AE /* EAUniformCrossover.h */,
+				AA8E9503178245240093B4AE /* EAUniformCrossover.m */,
+			);
+			name = Crossovers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7605571782365C006B0849 /* Bool-EA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7605661782365C006B0849 /* Build configuration list for PBXNativeTarget "Bool-EA" */;
+			buildPhases = (
+				AA7605541782365C006B0849 /* Sources */,
+				AA7605551782365C006B0849 /* Frameworks */,
+				AA7605561782365C006B0849 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bool-EA";
+			productName = "Bool-EA";
+			productReference = AA7605581782365C006B0849 /* Bool-EA */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7605501782365C006B0849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Christian Speich";
+			};
+			buildConfigurationList = AA7605531782365C006B0849 /* Build configuration list for PBXProject "Bool-EA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA76054F1782365C006B0849;
+			productRefGroup = AA7605591782365C006B0849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7605571782365C006B0849 /* Bool-EA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7605541782365C006B0849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8E94F317823E260093B4AE /* EAFunctionF1.m in Sources */,
+				AA8E94F617823F260093B4AE /* EAFunctionF2.m in Sources */,
+				AA8E9501178243DD0093B4AE /* EANPointCrossover.m in Sources */,
+				AA8E9504178245240093B4AE /* EAUniformCrossover.m in Sources */,
+				AA8E94ED178239A80093B4AE /* EAPopulation.m in Sources */,
+				AA8E94EE17823ACC0093B4AE /* EAIndividual.m in Sources */,
+				AA8E94FD178242C20093B4AE /* EAOneBitMutator.m in Sources */,
+				AA76055F1782365C006B0849 /* main.m in Sources */,
+				AA8E94FA1782419F0093B4AE /* EAStandardMutator.m in Sources */,
+				AA8E9508178246F60093B4AE /* EAOptimizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA7605641782365C006B0849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA7605651782365C006B0849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA7605671782365C006B0849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bool-EA/Bool-EA-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA7605681782365C006B0849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bool-EA/Bool-EA-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7605531782365C006B0849 /* Build configuration list for PBXProject "Bool-EA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7605641782365C006B0849 /* Debug */,
+				AA7605651782365C006B0849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7605661782365C006B0849 /* Build configuration list for PBXNativeTarget "Bool-EA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7605671782365C006B0849 /* Debug */,
+				AA7605681782365C006B0849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7605501782365C006B0849 /* Project object */;
+}
